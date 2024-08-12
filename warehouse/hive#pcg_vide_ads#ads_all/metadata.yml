@@ -3,8 +3,8 @@ appGroup: ''
 comment: 新建 创作号生态供需主题标签结果表
 databaseName: pcg_video_ads
 owners:
-- shinesyang
-- жжжжжжжжж
+  - shinesyang
+  -
 refreshPeriod: d
 refreshPolicy: i
 storage:
