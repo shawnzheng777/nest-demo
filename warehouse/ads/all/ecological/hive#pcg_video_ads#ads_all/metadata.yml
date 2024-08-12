@@ -1,0 +1,16 @@
+!!com.tencent.pcg.ola.olab.ide.core.dev.pojo.dto.MetadataYamlDTO
+appGroup: ''
+comment: 新建 创作号生态供需主题标签结果表
+databaseName: pcg_video_ads
+owners:
+- shinesyang
+- жжжжжжжжж
+refreshPeriod: d
+refreshPolicy: i
+storage:
+  compress: false
+  fileType: orcfile
+  lifeCycle: 30
+tableName: ads_all_ecological_creator_topic_label_di
+tableNameCn: 创作号生态供需主题标签结果表
+warehouseLevel: ads
