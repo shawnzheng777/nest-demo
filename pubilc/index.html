@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>什么是 SSR（服务端渲染）？</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      padding: 32px 40px;
+    }
+    h1 {
+      color: #2d8cf0;
+      margin-bottom: 16px;
+    }
+    h2 {
+      color: #333;
+      margin-top: 32px;
+      margin-bottom: 12px;
+    }
+    ul {
+      margin: 0 0 16px 20px;
+    }
+    p {
+      color: #555;
+      line-height: 1.7;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>什么是 SSR（服务端渲染）？</h1>
+    <p>
+      <strong>SSR</strong>（Server Side Rendering，服务端渲染）是一种网页渲染方式。与传统的客户端渲染（CSR）不同，SSR 会在服务器端将页面内容渲染成 HTML 后直接返回给浏览器，浏览器收到后即可直接展示页面内容。
+    </p>
+
+    <h2>SSR 的优点</h2>
+    <ul>
+      <li><strong>更快的首屏加载速度：</strong>用户打开页面时，能立即看到完整内容，提升用户体验。</li>
+      <li><strong>更好的 SEO：</strong>搜索引擎可以直接抓取到完整的 HTML 内容，有利于网站收录和排名。</li>
+      <li><strong>更好的分享体验：</strong>社交平台抓取页面时能获取到完整内容和预览图。</li>
+    </ul>
+
+    <h2>SSR 的缺点</h2>
+    <ul>
+      <li><strong>服务器压力大：</strong>每次请求都需要服务器渲染页面，服务器负载较高。</li>
+      <li><strong>开发复杂度提升：</strong>需要同时处理服务端和客户端的代码，调试和部署更复杂。</li>
+      <li><strong>部分交互需二次加载：</strong>页面首次渲染后，仍需客户端 JS 接管页面，实现完整交互。</li>
+    </ul>
+
+    <h2>常见的 SSR 框架</h2>
+    <ul>
+      <li>Next.js（React）</li>
+      <li>Nuxt.js（Vue）</li>
+      <li>Remix（React）</li>
+      <li>Angular Universal（Angular）</li>
+    </ul>
+
+    <p>
+      <em>SSR 适用于对 SEO 要求高、首屏加载速度要求快的场景。选择 SSR 还是 CSR，需要根据项目实际需求权衡。</em>
+    </p>
+  </div>
+</body>
+</html>
